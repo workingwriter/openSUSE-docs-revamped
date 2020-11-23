@@ -11,6 +11,6 @@
 ## Branches & rules
 * The default branch -- the working branch -- is not `main` or `master` but `dev`. That's the branch where day-to-day work should happen.
 * `master` enforces the some basic rules, bear them in mind if something is not working as expected:
-- Require pull request reviews before merging
-- Require status checks to pass before merging
-- Require branches to be up to date before merging
+    * Require pull request reviews before merging
+    * Require status checks to pass before merging
+    * Require branches to be up to date before merging
