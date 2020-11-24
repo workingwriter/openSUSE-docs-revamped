@@ -38,4 +38,4 @@
     * sh port blocked _y | n_ 
 * Import SSH Host Keys and Configuration
 * Network configuration
-    * wicked (_switch to NetworkManager_) 
+    * wicked (_switch to NetworkManager_)
