@@ -6,9 +6,9 @@
 * ? => Can fail to analyzse already active partitions
 * OK connection => Can ask to look up for additional software ("Actiivate online repositories now? dialog box"
 ## List of Online Repositories
-* [v] Main (updates)
-* [v] Main (FOSS)
-* [v] Main (non-FOSSS)
+* [x] Main (updates)
+* [x] Main (FOSS)
+* [x] Main (non-FOSSS)
 * [ ] Main (Sources)
 * [ ] Main (DEBUG)
 ## System Role
