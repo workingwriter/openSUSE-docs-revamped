@@ -11,6 +11,18 @@
     3. finally `cd` to `project` and run you `mkdocs` commands from there, i.e. `mkdocs build` to generate the web content and `mkdocs serve` to serve it (by default at http://127.0.0.1:8000/). The built-in dev-server allows you to preview your documentation as you're writing it. It will even auto-reload and refresh your browser whenever you save your changes.
 * Available commands & documentation on mkdocs: https://www.mkdocs.org/
 
+## Repo structure
+```
+...
+Pipfile     # dependencies listed in pipenv format
+requirements.txt    # dependencies listed in pip format (added for compatibility purposes)
+project/
+    docs/   # contents files that mkdocs injects when building the website
+    site/   # the source files of the generated website after each 'mkdocs build' command.
+    ...
+...
+```
+
 ## Branches & rules
 * The default branch -- the working branch -- is not `main` or `master` but `dev`. That's the branch where day-to-day work should happen.
 * `master` enforces the same basic rules, bear them in mind if something is not working as expected:
